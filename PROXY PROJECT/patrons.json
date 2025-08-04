@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ID003",
+    "name": "Azucena, Prince Vincent",
+    "age": 17,
+    "preferences": [
+      "Filipino Literature",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "ID004",
+    "name": "Bautista, Jan Ysmael",
+    "age": 18,
+    "preferences": [
+      "Science Fiction",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "ID005",
+    "name": "Catchuela, Jet Mark",
+    "age": 15,
+    "preferences": [
+      "Fantasy",
+      "Horror"
+    ]
+  },
+  {
+    "id": "ID006",
+    "name": "Danao, Patrick",
+    "age": 21,
+    "preferences": [
+      "Romance",
+      "Mystery"
+    ]
+  },
+  {
+    "id": "ID007",
+    "name": "Diaz, John Oliver",
+    "age": 13,
+    "preferences": [
+      "Adventure",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "ID008",
+    "name": "Inglesa, John Rey",
+    "age": 16,
+    "preferences": [
+      "Mystery",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": "ID009",
+    "name": "Llames, Paul Jeriel",
+    "age": 15,
+    "preferences": [
+      "Filipino Literature",
+      "Horror"
+    ]
+  },
+  {
+    "id": "ID010",
+    "name": "Longanilla, Nicholas",
+    "age": 18,
+    "preferences": [
+      "Fantasy",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "ID011",
+    "name": "Manikis, Xzekiel",
+    "age": 16,
+    "preferences": [
+      "Romance",
+      "Fantasy"
+    ]
+  },
+  {
+    "id": "ID012",
+    "name": "Mosende, Ervin",
+    "age": 17,
+    "preferences": [
+      "Science Fiction",
+      "Filipino Literature"
+    ]
+  },
+  {
+    "id": "ID013",
+    "name": "Pepito, Jayvee",
+    "age": 21,
+    "preferences": [
+      "Horror",
+      "Adventure"
+    ]
+  },
+  {
+    "id": "ID014",
+    "name": "Repole, Orvie",
+    "age": 14,
+    "preferences": [
+      "Fantasy",
+      "Filipino Literature"
+    ]
+  },
+  {
+    "id": "ID015",
+    "name": "Rinosa, Jae Dylan",
+    "age": 16,
+    "preferences": [
+      "Mystery",
+      "Horror"
+    ]
+  },
+  {
+    "id": "ID016",
+    "name": "Tabilid, Jed",
+    "age": 15,
+    "preferences": [
+      "Fantasy",
+      "Science Fiction"
+    ]
+  },
+  {
+    "id": "ID017",
+    "name": "U\u00f1amayor, John Michael",
+    "age": 19,
+    "preferences": [
+      "Filipino Literature",
+      "Mystery"
+    ]
+  }
+]

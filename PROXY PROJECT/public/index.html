@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Smart Library AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 Smart Library AI Assistant</h1>
+  <p>Enter Patron ID to get book recommendations:</p>
+
+  <input type="text" id="patronId" placeholder="e.g. ABC123">
+  <button onclick="getRecommendations()">Get Recommendations</button>
+
+  <div id="results"></div>
+
+  <script>
+    async function getRecommendations() {
+      const id = document.getElementById('patronId').value;
+      const resultsDiv = document.getElementById('results');
+
+      if (!id) {
+        resultsDiv.innerHTML = `<p style="color:red;">Please enter a Patron ID.</p>`;
+        return;
+      }
+
+      try {
+        const res = await fetch(`/recommend/${id}`);
+        const data = await res.json();
+
+        if (data.error) {
+          resultsDiv.innerHTML = `<p style="color:red;">${data.error}</p>`;
+          return;
+        }
+
+        let html = `<h3>Recommended Books for <strong>${data.name}</strong>:</h3><ul>`;
+        data.recommendations.forEach(book => {
+          html += `<li><strong>${book.title}</strong> — ${book.genre}</li>`;
+        });
+        html += `</ul>`;
+        resultsDiv.innerHTML = html;
+      } catch (error) {
+        resultsDiv.innerHTML = `<p style="color:red;">Server error or invalid response.</p>`;
+      }
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+[
+  {
+    "title": "The Lost Sword",
+    "genre": "Fantasy",
+    "ageRestriction": 12
+  },
+  {
+    "title": "Alien Encounters",
+    "genre": "Science Fiction",
+    "ageRestriction": 18
+  },
+  {
+    "title": "The Hidden Clue",
+    "genre": "Mystery",
+    "ageRestriction": 16
+  },
+  {
+    "title": "Jungle Quest",
+    "genre": "Adventure",
+    "ageRestriction": 10
+  },
+  {
+    "title": "Noli Me Tangere",
+    "genre": "Filipino Literature",
+    "ageRestriction": 16
+  },
+  {
+    "title": "El Filibusterismo",
+    "genre": "Filipino Literature",
+    "ageRestriction": 16
+  },
+  {
+    "title": "Dekada '70",
+    "genre": "Filipino Literature",
+    "ageRestriction": 18
+  },
+  {
+    "title": "The Hunger Games",
+    "genre": "Science Fiction",
+    "ageRestriction": 13
+  },
+  {
+    "title": "Divergent",
+    "genre": "Science Fiction",
+    "ageRestriction": 13
+  },
+  {
+    "title": "The Maze Runner",
+    "genre": "Science Fiction",
+    "ageRestriction": 13
+  },
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "genre": "Fantasy",
+    "ageRestriction": 10
+  },
+  {
+    "title": "Percy Jackson: The Lightning Thief",
+    "genre": "Adventure",
+    "ageRestriction": 10
+  },
+  {
+    "title": "Before Ever After",
+    "genre": "Romance",
+    "ageRestriction": 15
+  },
+  {
+    "title": "Alamat ng Gubat",
+    "genre": "Filipino Literature",
+    "ageRestriction": 12
+  },
+  {
+    "title": "Trese: Murder on Balete Drive",
+    "genre": "Horror",
+    "ageRestriction": 16
+  }
+]
